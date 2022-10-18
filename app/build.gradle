@@ -50,7 +50,10 @@ dependencies {
     implementation "com.github.skydoves:colorpickerview:2.2.4"
 
     //Lifecycle
-    def lifecycle_version = "2.6.0-alpha02"
+    def lifecycle_version = "2.5.1"
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_version"
+
+    //Coroutines for firebase
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.5.1'
 
 }
